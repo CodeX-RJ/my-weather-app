@@ -1,0 +1,70 @@
+.tempcont
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+}
+
+.weathericon
+{
+    height: 100px;
+    margin-left: 120px;
+
+}
+.weathercondition
+{
+    text-align: center;
+    color: darkblue;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tempcontainer
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    margin-top: -20px;
+    height: fit-content;
+    align-items: center;
+}
+.weathercondition1 {
+    font-size: 45px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.minmaxtempcont
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.mintemp
+{
+    margin-right: 10px;
+    margin: 0;
+    
+
+}
+.maxtemp
+{
+    margin: 0;
+    margin-left: 10px;
+}
+.allminmaxtempcont
+{
+   
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.feeltemp
+{
+    margin: 0;
+}

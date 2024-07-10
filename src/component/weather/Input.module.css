@@ -1,0 +1,60 @@
+
+.brandtext
+{
+    margin: 0;
+    color: darkblue;
+    text-align: center;
+}
+.inputtext
+{
+    border: solid 2px black;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    font-size: 18px;
+    width: 250px;
+    height: 25px;
+}
+.inputtext:focus {
+    border: 2px solid darkblue;
+    border-radius: 0%;
+    outline: none;
+    background-color: rgb(225, 243, 220);
+  }
+  .inputcontainer
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchicon
+  {
+    margin-top: 5px;
+    height: 23px;
+    border: solid 2px black;
+    border-left: none;
+    padding: 2px;
+    background-color: rgb(4, 235, 0);
+  }
+  .searchicon:hover
+  {
+    background-color: rgb(183, 255, 182);
+    cursor: pointer;
+  }
+  .location
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -12px;
+
+  }
+  .locationicon
+  {
+    height: 15px;
+    margin-left: 5px;
+  }
+  .cityname
+  {
+    font-weight: 500;
+    text-decoration: underline;
+  }

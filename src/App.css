@@ -1,0 +1,17 @@
+body
+{
+  background-color: rgb(221, 215, 127);
+}
+.appbody
+{
+  height: fit-content;
+  width: 350px;
+  background-image: url('./component/asset/bg2.jpg');
+  object-fit: cover;
+  justify-content: center;
+  border: solid black 1px;
+  box-shadow: 3px 3px 15px blue;
+  border-radius: 25px;
+ padding: 0%;
+ padding-bottom: 15px;
+}
