@@ -8,8 +8,11 @@
 
 .weathericon
 {
-    height: 100px;
-    margin-left: 120px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+    margin-top: -30px;
 
 }
 .weathercondition

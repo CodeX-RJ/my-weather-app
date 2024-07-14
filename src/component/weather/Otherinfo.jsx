@@ -7,7 +7,7 @@ import Sunset from '../asset/sunset.png';
 function Otherinfo(weather)
 {
     if (!weather || !weather.weather) {
-        return <div>Loading...</div>;
+        return <div></div>;
     }
     const humiDity = weather.weather.main.humidity;
     const windSpeed = weather.weather.wind.speed;

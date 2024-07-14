@@ -4,7 +4,7 @@ body
 }
 .appbody
 {
-  height: fit-content;
+  height: 90vh;
   width: 350px;
   background-image: url('./component/asset/bg2.jpg');
   object-fit: cover;
