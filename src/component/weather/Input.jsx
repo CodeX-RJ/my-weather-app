@@ -31,7 +31,6 @@ function Input() {
         const city = document.getElementById('cityname').value;
         setCityname(city);
         fetchWeatherData(city);
-        console.log(weatherData);
     };
 
     return (
